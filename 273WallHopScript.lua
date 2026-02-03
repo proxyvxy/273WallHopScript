@@ -29,8 +29,8 @@ frame.Draggable = true -- makes the window draggable
 
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, 0, 0, 40)
-title.Text = "JEFF Key System"
-title.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+title.Text = "273"
+title.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextScaled = true
 title.Font = Enum.Font.GothamBold
@@ -77,13 +77,13 @@ message.Font = Enum.Font.GothamSemibold
 
 -- Function to copy link
 getKeyButton.MouseButton1Click:Connect(function()
-    setclipboard("https://your-link-generator-url-here")
+    setclipboard("https://discord.gg/qYJ9gnB2DQ")
     message.Text = "Link copied! Paste it in your browser to generate your key."
 end)
 
 -- Function to check key format
 local function isValidKeyFormat(key)
-    return string.match(key, "^JEFF%-%w%w%w%w%-%w%w%w%w$") ~= nil
+    return string.match(key, "fSHuljCKPBS5aBgt") ~= nil
 end
 
 -- Function to send notifications
