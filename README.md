@@ -1,1 +1,1 @@
-# 273WallHopScript
+© 2026 273. All rights reserved.
