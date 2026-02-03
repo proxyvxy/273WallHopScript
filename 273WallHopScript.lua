@@ -85,7 +85,7 @@ end
 local hub = Instance.new("Frame")
 hub.Name = "MainHub"
 hub.BackgroundColor3 = Color3.fromRGB(200, 30, 30)
-hub.BackgroundTransparency = 0.4
+hub.BackgroundTransparency = 1.0
 hub.Position = UDim2.new(0.5, -175, 0.5, -150)
 hub.Size = UDim2.new(0, 350, 0, 300)
 hub.Active = true
